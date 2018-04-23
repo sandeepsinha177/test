@@ -12,7 +12,7 @@
 </requestHandler>
 
 3. Now we will create the db-data-config.xml file that is responsible for the Data Import Handler configuration. It should have contents like the following example:
-
++sdf
 <dataConfig>
     <dataSource driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/test" user="root" password="root" />
     <document>
@@ -24,7 +24,7 @@
         </entity>
     </document>
 </dataConfig>
-
++
 If you want to use other database engines, please change the driver, url, and user and password attributes.
 
 4. Now, let's create a sample index structure. To do that we need to modify the fields section of the schema.xml file to something like the following snippet:
