@@ -1,3 +1,2 @@
-# test
+# Index mysql data to Solr
 
-fgh
